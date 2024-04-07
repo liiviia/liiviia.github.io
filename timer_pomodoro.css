@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #ffcccc; 
+    z-index: 2;
+    overflow: hidden;
+
+  }
+
+  title-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  h1{
+    margin:0; 
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .form-group.left {
+    margin-right: 10px; 
+  }
+
+  .form-group.right {
+    margin-left: 10px; 
+  }
+  
+  .main-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  #clock {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .timer {
+    font-size: 4em;
+    z-index: 1;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+  .blob {
+    width: 300px; 
+    height: 300px; 
+    margin: 10% auto; 
+    position: relative; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition: transform 1s; 
+    background-size: cover; 
+    z-index: 0; 
+  }
+  
+  .emoji {
+    width: 70%; 
+    height: 70%;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+  }
+  
+  .emoji svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .eye {
+    width: 15%;
+    height: 15%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+  }
+  
+  .eye.left {
+    left: 30%;
+  }
+  
+  .eye.right {
+    right: 30%;
+  }
+  
+  .mouth {
+    width: 50%;
+    height: 10%;
+    background-color: #ffffff;
+    border-radius: 80% 80% 0% 0%;
+    position: absolute;
+    bottom: 25%;
+    left: 25%;
+    transition: height 1s linear, border-radius 1s linear;
+  }
+  
+  .btn-custom {
+    background-color: #5CB3FF; 
+    color: black; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.2s; 
+    border: none; 
+    margin-top: 10px;
+}
+
+.btn-custom:hover {
+    background-color: #5CB3FF; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+}
