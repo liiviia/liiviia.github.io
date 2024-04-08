@@ -102,7 +102,7 @@ body {
   .eye {
     width: 15%;
     height: 15%;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
     top: 30%;
@@ -115,15 +115,34 @@ body {
   .eye.right {
     right: 30%;
   }
+
+  .pupil{
+    width: 5%;
+    height: 5%;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top:35%; 
+  }
+
+  .pupil.left{
+    left: 65%; 
+  }
+
+  .pupil.right{
+    right:55%; 
+  }
   
   .mouth {
     width: 50%;
-    height: 10%;
-    background-color: #ffffff;
-    border-radius: 80% 80% 0% 0%;
+    height: 50%;
+    background: transparent;
+    border-radius: 50%;
     position: absolute;
     bottom: 25%;
     left: 25%;
+    border: 5px solid black; 
+    border-color: transparent transparent black;
     transition: height 1s linear, border-radius 1s linear;
   }
   
