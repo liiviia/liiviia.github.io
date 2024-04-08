@@ -67,7 +67,7 @@ function updatePomodoroImage(time){
     let circle = document.querySelector('.emoji svg circle'); 
 
     let cirucumference = 2 * Math.PI * circle.getAttribute('r'); 
-    let offset = cirucumference * (elapdesTime / totalTime); 
+    let offset = cirucumference - (cirucumference + (cirucumference * (elapdesTime / totalTime))); 
 
     circle.style.strokeDashoffset = offset;
 
