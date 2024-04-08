@@ -152,3 +152,4 @@ function updateTimerDisplay(time) {
     const seconds = Math.floor((time % (1000 * 60)) / 1000);
     document.getElementById('timerDisplay').textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
+
