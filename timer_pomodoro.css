@@ -2,19 +2,18 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
     background-color: #ffcccc; 
     z-index: 2;
     overflow: auto;
-
   }
 
   title-container {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
   }
 
   h1{
