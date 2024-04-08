@@ -1,4 +1,4 @@
-#Progetto Timer Pomodoro
+# Progetto Timer Pomodoro
 
 Il progetto si compone di un timer per controllare l'organizzazione dello studio. 
 Infatti è possibile inserire il tempo di studio in minuti, il tempo di pausa in minuti e il numero di cicli di studio (e.g. 2 cicli di studio vuol dire 2 tempi per lo studio, due tempi per la pausa). 
